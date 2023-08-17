@@ -7,8 +7,10 @@ class Manager extends Employee{
     }
 
     addEmployee(employee) {
-        return this.employees.push(employee);
+        this.employees.push(employee);
     }
 }
+
+
 
 module.exports = Manager;
